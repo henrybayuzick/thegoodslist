@@ -1,2 +1,2 @@
 # The Goods List
-## Cool stuff for cool dudes.
+## Cool stuff for cool dudes
