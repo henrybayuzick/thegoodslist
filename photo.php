@@ -12,7 +12,7 @@
 					</ul>
 				</div>
 			</div>
-		<? } ?>
+		<?php } ?>
 		<div class="card-image">
 			<a target="_blank" href="<?php the_sub_field('photo_url'); ?>">
 				<img alt="<?php the_sub_field('photo_title'); ?>" src="<?php the_sub_field('photo'); ?>">
