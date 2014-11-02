@@ -1,0 +1,102 @@
+button, .btn {
+	font-family: $font-family-2;
+	color:$dark-gray;
+	font-size:.8rem;
+	background: $white;
+	border:1px solid $light-gray;
+	padding:6px $space*2;
+	border-radius: 40px;
+	outline:0;
+	font-weight:normal;
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+
+	&.active {
+		background:$blue;
+		color:$white;
+		border:1px solid $blue;
+	}
+
+	&:visited {
+		color: $dark-gray;
+	}
+
+	&:hover {
+		background:$blue;
+		color:$white;
+	}
+}
+
+.btn-orange {
+	color: $orange;
+	background:$white;
+	border:1px solid $orange;
+
+	&:visited {
+		color: $orange;
+	}
+
+	&:hover {
+		background:$orange;
+		color:$white;
+	}
+
+}
+
+.btn.icon-twitter {
+	color: #55ACEE;
+	background:$white;
+	border:1px solid #55ACEE;
+
+	&:visited {
+		color: #55ACEE;
+	}
+
+	&:hover {
+		background:#55ACEE;
+		color:$white;
+	}
+}
+
+.btn.icon-facebook {
+	color: #3b5998;
+	background:$white;
+	border:1px solid #3b5998;
+
+	&:visited {
+		color: #3b5998;
+	}
+
+	&:hover {
+		background:#3b5998;
+		color:$white;
+	}
+}
+
+.btn.icon-pinterest {
+	color: #CB2027;
+	background:$white;
+	border:1px solid #CB2027;
+
+	&:visited {
+		color: #CB2027;
+	}
+
+	&:hover {
+		background:#CB2027;
+		color:$white;
+	}
+}
+
+.btn-back {
+	float:left;
+}
+
+@media all and (max-width: 460px) {
+	.btn-nohover:hover {
+		background:white;
+		border:1px solid $light-gray;
+		color:$dark-gray;
+	}
+}
