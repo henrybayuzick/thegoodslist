@@ -4,7 +4,7 @@
 
 	<main id="feed" role="main" class="feed wrapper">
 
-		<?php if ( have_posts() ) : while ( have_posts() ) : the_post();
+<!-- 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post();
 		
 			get_template_part( 'content', get_post_format() ); 
 
@@ -16,7 +16,7 @@
 			Email us at <a href="#">feedback@goodslist.co</a></p>
 		</div>
 
-		<?php endif; ?>
+		<?php endif; ?> -->
 
 	</main>
 
