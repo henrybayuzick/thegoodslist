@@ -86,10 +86,10 @@ footer {
 section {
 	padding:$space*2 0;
 	border-bottom:1px solid $light-gray;
+}
 
-	&:last-of-type {
-		border-bottom:0;
-	}
+article section {
+	border-bottom:0;
 }
 
 figure.hero {

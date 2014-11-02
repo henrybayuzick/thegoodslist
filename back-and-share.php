@@ -17,7 +17,7 @@
         $thumbnail = $photos[0]['photo']; 
         $shareurl = "https://pinterest.com/pin/create/button/?url=$shortlink&media=$thumbnail&description=$description";
     } else {
-        $description = get_the_title() . "on The Goods List";
+        $description = get_the_title() . " on The Goods List";
         $thumbnail = get_field('hero_image');
         $shareurl = "https://pinterest.com/pin/create/button/?url=$shortlink&media=$thumbnail&description=$description";
     }

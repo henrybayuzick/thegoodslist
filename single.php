@@ -4,7 +4,7 @@ if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 	
 	<?php get_template_part('back-and-share'); ?>
 
-	<main role="main">
+	<main role="main single">
 
 		<article>
 		
@@ -22,6 +22,12 @@ if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 					} ?>
 				</div>
 			<?php } ?>
+
+			<footer class="wrapper article-body">
+				<h3>Want more like this?</h3>
+				<p>Sign up for our newsletter and get curated content each week.</p>
+				<?php get_template_part('mailchimp-form'); ?>
+			</footer>
 
 		</article>
 

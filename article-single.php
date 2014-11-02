@@ -13,11 +13,4 @@
 
 	<?php the_content() ?>
 
-	<footer>
-		<h3>Want more like this?</h3>
-		<p>Sign up for our newsletter and get curated articles each week.</p>
-		<input type="text" placeholder="you@adventure.com">
-		<a class="btn">Sign me up</a>
-	</footer>
-
 </div>

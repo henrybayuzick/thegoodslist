@@ -11,6 +11,7 @@ button, .btn {
 	display: inline-block;
 	vertical-align: middle;
 	cursor: pointer;
+	-webkit-font-smoothing: antialiased;
 
 	&.active {
 		background:$blue;
@@ -26,6 +27,11 @@ button, .btn {
 		background:$blue;
 		color:$white;
 	}
+}
+
+input.btn {
+	padding-top:9px;
+	padding-bottom:9px;
 }
 
 .btn-orange {

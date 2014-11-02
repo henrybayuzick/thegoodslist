@@ -24,8 +24,7 @@
 
         <div class="wrapper">
             <p>Sign up for our newsletter and get curated content each week.</p>
-            <input type="text" placeholder="you@adventure.com">
-            <a data-mailinglist-signup class="btn">Sign me up</a><br/>
+            <?php get_template_part('mailchimp-form'); ?>
             <a data-mailinglist-close href="#" class="no-thanks">No thanks</a>
         </div>
 
