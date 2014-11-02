@@ -1,5 +1,5 @@
 <?php $photos = get_field('add_photos' ); $numberOfPhotos = count($photos); $firstPicture = true; ?>
-<section data-type="photo" class="card<?php if ($numberOfPhotos == 1) { ?> one-image<? } else if ($numberOfPhotos == 2) { ?> two-images<?php } else if ($numberOfPhotos == 3) { ?> three-images <?php } ?>">
+<section data-type="photo" class="card<?php if ($numberOfPhotos == 1) { ?> one-image<?php } else if ($numberOfPhotos == 2) { ?> two-images<?php } else if ($numberOfPhotos == 3) { ?> three-images <?php } ?>">
 	<?php while ( have_rows('add_photos') ) : the_row(); ?>
 		<?php if ($firstPicture) { ?>
 			<div data-options class="card-options">
