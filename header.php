@@ -16,14 +16,14 @@
     </head>
 
     <?php wp_head() ?>
-    <body>
+    <body class="<?php if(is_front_page()) { ?>home<?php } ?>">
 
     <header role="banner" class="wrapper">
         <a alt="The Goods List - Home" href="<?php echo home_url(); ?>">
             <img alt="The Goods List" class="logo" src="<?php echo get_template_directory_uri(); ?>/images/logo.svg">
         </a>
 
-        <h1>Cool stuff for cool dudes.</h1>
+        <h1>Things for the design-centric fellow.</h1>
         <ul>
             <?php wp_nav_menu( array('container' => false, 'items_wrap' => '%3$s' )); ?>
         </ul>

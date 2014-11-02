@@ -125,7 +125,6 @@ hr {
 		padding:$space 0;
 		background:#F7F7F7;
 		border-top:1px solid $light-gray;
-		border-bottom:1px solid $light-gray;
 	}
 
 	nav .wrapper {
@@ -139,8 +138,15 @@ hr {
 
 	section {
 		padding:$space 0;
-		border-top:0;
+		border-bottom:0;
 	}
+
+	.callout.wrapper { width:95%; }
+	.home nav .wrapper { border-bottom:0; }
+	.home footer { margin-top:0;}
+	footer { margin-bottom: $space*8; }
+
+	article footer { margin-bottom: $space*2; }
 }
 
 @media all and (max-width: 699px) {
