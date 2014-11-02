@@ -24,18 +24,14 @@ if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
 				<?php the_content() ?>
 
-				
-
 			</div>
 
 			<div class="callout wrapper">
 			<hr/>
-				<h3>Help support us</h3>
-				<p>Sign up for our newsletter and get curated content each week.</p>
+				<h3>Get the Goods</h3>
+				<p>Sign up for our newsletter and get our best content each week.</p>
 				<?php get_template_part('mailchimp-form'); ?>
 			</div>
-
-
 
 		</article>
 
