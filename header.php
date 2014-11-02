@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title><?php wp_title(); ?></title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="google-site-verification" content="2dycYCuAd37ax40wNFbrLjUU9yhCM-kUMS-R4C53qSE" />
 
         <script src="//use.typekit.net/agb4mpd.js"></script>
         <script>try{Typekit.load();}catch(e){}</script>
