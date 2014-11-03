@@ -30,6 +30,7 @@
 	</div>
 	<div class="card-details cf">
 		<ul>
+			<?php $firstProduct = true; ?>
 			<?php while ( have_rows('link_to_products') ) : the_row(); ?>
 				<?php if ((get_field('products_subhead')) && ($firstProduct) ) { ?>
 					<li><h4><?php the_field('products_subhead'); ?></h4></li>
