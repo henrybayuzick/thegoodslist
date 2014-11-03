@@ -1,7 +1,7 @@
 <section data-type="video" class="card video">
 	<?php
 	$shortlink = wp_get_shortlink();
-	$description = get_field('share_title') . " on The Goods List";
+	$description = "Watch " . get_field('share_title') . " on The Goods List";
 	if (get_field('video_type') == 'vimeo') { 
 		$vimeoid = get_field('vimeo_video_id');
 		$hash = unserialize(file_get_contents("http://vimeo.com/api/v2/video/$vimeoid.php"));
