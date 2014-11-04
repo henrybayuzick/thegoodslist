@@ -12,6 +12,9 @@
 
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/main.min.css">
 
+        <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/favicon-16x16.png" sizes="16x16" />
+
         <!-- TODO: Add HTML5 Shiv --> 
     </head>
 
