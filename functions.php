@@ -1,7 +1,6 @@
 <?php
 register_nav_menus( array(
-	'main' => 'Main Menu',
-	'filter' => 'Filter'
+	'main' => 'Main Menu'
 ));
 
 function html5_insert_image($html, $id, $caption, $title, $align, $url) {

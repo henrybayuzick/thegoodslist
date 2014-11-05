@@ -121,9 +121,4 @@ $(document).ready(function() {
             $('[data-tooltip]').removeClass('open');
         }
     });
-
-
-    // Filter categories
-
-    
 });

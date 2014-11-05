@@ -6,7 +6,7 @@
             <a href="<?php echo get_page_link(214); ?>" class="btn <?php if(is_page(214) || is_front_page()) echo 'active' ?>">All</a>
             <a href="<?php echo get_page_link(212); ?>" class="btn <?php if(is_page(212)) echo 'active' ?>">Articles</a>
             <a href="<?php echo get_page_link(216); ?>" class="btn <?php if(is_page(216)) echo 'active' ?>">Photos</a>
-            <a href="<?php echo get_page_link(218); ?>" class="btn <?php if(is_page(218)) echo 'active' ?>">Photos</a>
+            <a href="<?php echo get_page_link(218); ?>" class="btn <?php if(is_page(218)) echo 'active' ?>">Videos</a>
         </ul>
         <ul data-filter-mobile class="filter mobile">
             <li data-popover-open class="btn">Filter</li>
