@@ -1,8 +1,17 @@
-<?php get_header(); ?>
+<?php
+/*
+Template Name: Articles
+*/
+get_header(); ?>
 
 	<?php get_template_part('filter' ); ?>
 
 	<main id="feed" role="main" class="feed wrapper">
+
+		<?php
+			$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+			$wp_query = new WP_Query('cat=3,6&posts_per_page='.get_option('posts_per_page').'&paged=' . $paged);
+		?>
 
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post();
 		
@@ -16,7 +25,7 @@
 
 			<?php get_template_part( 'no-posts'); ?>
 
-		<?php endif; ?>
+		<?php wp_reset_postdata(); endif; ?>
 
 	</main>
 

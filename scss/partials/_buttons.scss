@@ -21,6 +21,10 @@ button, .btn {
 
 	&:visited {
 		color: $dark-gray;
+
+		&.active {
+			color:$white;
+		}
 	}
 
 	&:hover {

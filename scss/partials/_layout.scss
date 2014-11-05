@@ -111,6 +111,11 @@ hr {
 	margin:$space 0;
 }
 
+.pagination { margin-top:$space*4; }
+
+.float-right { float:right; }
+.float-left { float: left; }
+
 @media all and (max-width: 460px) {
 
 	.wrapper {

@@ -1,6 +1,7 @@
 <?php
 register_nav_menus( array(
-	'main' => 'Main Menu'
+	'main' => 'Main Menu',
+	'filter' => 'Filter'
 ));
 
 function html5_insert_image($html, $id, $caption, $title, $align, $url) {
@@ -14,8 +15,10 @@ function html5_insert_image($html, $id, $caption, $title, $align, $url) {
 }
 add_filter( 'image_send_to_editor', 'html5_insert_image', 10, 9 );
 
-add_theme_support( 'infinite-scroll', array(
-    'container' => 'feed',
-    'footer' => false
-) );
+add_filter('next_posts_link_attributes', 'posts_link_attributes');
+add_filter('previous_posts_link_attributes', 'posts_link_attributes');
+
+function posts_link_attributes() {
+    return 'class="btn"';
+}
 ?>

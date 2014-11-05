@@ -28,6 +28,6 @@
 
         <h1>Things for the design-centric fellow.</h1>
         <ul>
-            <?php wp_nav_menu( array('container' => false, 'items_wrap' => '%3$s' )); ?>
+            <?php wp_nav_menu( array('theme_location'  => 'main','container' => false, 'items_wrap' => '%3$s' )); ?>
         </ul>
     </header>

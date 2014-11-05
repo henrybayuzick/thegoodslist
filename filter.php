@@ -3,10 +3,10 @@
 <nav data-sticky-nav>
     <div class="wrapper cf">
         <ul data-filter-desktop class="filter desktop">
-            <li data-all class="btn">All</li>
-            <li data-articles class="btn">Articles</li>
-            <li data-photos class="btn">Photos</li>
-            <li data-videos class="btn">Videos</li>
+            <a href="<?php echo get_page_link(214); ?>" class="btn <?php if(is_page(214) || is_front_page()) echo 'active' ?>">All</a>
+            <a href="<?php echo get_page_link(212); ?>" class="btn <?php if(is_page(212)) echo 'active' ?>">Articles</a>
+            <a href="<?php echo get_page_link(216); ?>" class="btn <?php if(is_page(216)) echo 'active' ?>">Photos</a>
+            <a href="<?php echo get_page_link(218); ?>" class="btn <?php if(is_page(218)) echo 'active' ?>">Photos</a>
         </ul>
         <ul data-filter-mobile class="filter mobile">
             <li data-popover-open class="btn">Filter</li>
@@ -24,10 +24,10 @@
 
 <nav data-popover class="popover">
     <ul>
-        <li><a data-all href="#"><span class="icon-ok"></span> All</a></li>
-        <li><a data-articles href="#"><span class="icon-doc"></span> Articles</a></li>
-        <li><a data-photos href="#"><span class="icon-picture"></span> Photos</a></li>
-        <li><a data-videos href="#"><span class="icon-video"></span> Videos</a></li>
+        <li><a href="<?php echo get_page_link(214); ?>" class="<?php if(is_page(214) || is_front_page()) echo 'active' ?>"><span class="icon-ok"></span> All</a></li>
+        <li><a href="<?php echo get_page_link(212); ?>" class="<?php if(is_page(212)) echo 'active' ?>"><span class="icon-doc"></span> Articles</a></li>
+        <li><a href="<?php echo get_page_link(216); ?>" class="<?php if(is_page(216)) echo 'active' ?>"><span class="icon-picture"></span> Photos</a></li>
+        <li><a href="<?php echo get_page_link(218); ?>" class="<?php if(is_page(218)) echo 'active' ?>"><span class="icon-video"></span> Videos</a></li>
         <li><a data-popover-close href="#"><span class="icon-cancel"></span> Close</a></li>
     </ul>
 </nav>
