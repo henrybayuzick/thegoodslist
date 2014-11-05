@@ -49,6 +49,7 @@ input[type="email"], input[type="search"], input[type="text"] {
 	width:100%;
 	top:0;
 	right:0;
+	height:38px;
 	position:absolute;
 }
 
@@ -170,7 +171,7 @@ input[type="email"], input[type="search"], input[type="text"] {
 	.share.mobile, .filter.mobile { display:block; }
 	.filter.desktop, .share.desktop { display:none; }
 	.share li:first-child { margin-right:0; }
-	input[type="email"], input[type="search"], input[type="text"] { width: 60%; };
+	input[type="email"], input[type="text"] { width: 60%; };
 	.mailinglist .wrapper { width:95%; }
 	.search input { height:35px; }
 }
