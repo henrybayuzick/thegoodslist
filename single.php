@@ -8,16 +8,16 @@ if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
 		<article>
 		
-			<?php if (in_category('article')) {
+			<?php if (in_category('articles')) {
 				get_template_part('article', 'single');
 			}
 			else { ?>
 				<div class="wrapper article-body">
-					<?php if (in_category('link')) { 
+					<?php if (in_category('links')) { 
 						get_template_part('link');
-					} else if (in_category('photo')) {
+					} else if (in_category('photos')) {
 						get_template_part('photo' );
-					} else if (in_category('video')) {
+					} else if (in_category('videos')) {
 						get_template_part('video' );
 					} ?>
 				</div>
