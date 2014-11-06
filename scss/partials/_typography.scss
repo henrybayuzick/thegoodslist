@@ -24,7 +24,10 @@ a:hover { color: $base-link-hover-color; }
 p { margin: $space*2 0; }
 p a {
 	font-weight:normal;
+	text-decoration: underline;
 }
+
+h1,h2,h3,h5 a {font-weight: inherit;}
 
 b, strong { font-weight: 700; }
 
@@ -45,6 +48,12 @@ h4 {
 	font-family: $font-family-2;
 	font-size: 0.8rem;
 	color:$gray;
+}
+
+h5 {
+	font-family: $font-family-2;
+	font-size: 0.8rem;
+	color:$dark-gray;
 }
 
 article h1 {
@@ -100,7 +109,6 @@ article footer, .callout {
 }
 
 .callout {
-	margin-top:$space*3;
 	text-align: center;
 }
 
@@ -115,6 +123,10 @@ article footer, .callout {
 .article em {
 	color: $gray;
 	font-weight:normal;
+}
+
+.text-align-center {
+	text-align: center;
 }
 
 @media all and (max-width: 460px) {

@@ -12,7 +12,9 @@ if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 				get_template_part('article', 'single');
 			}
 			else { ?>
-				<div class="wrapper article-body">
+				<div class="wrapper article-body text-align-center">
+					<h5>Like what you see? <a href="<?php echo home_url(); ?>" class="btn">Treat yo' self</a></h5>
+					
 					<?php if (in_category('links')) { 
 						get_template_part('link');
 					} else if (in_category('photos')) {
@@ -22,12 +24,6 @@ if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 					} ?>
 				</div>
 			<?php } ?>
-
-			<footer class="wrapper article-body">
-				<h3>Want more like this?</h3>
-				<p>Sign up for our newsletter and get curated content each week.</p>
-				<?php get_template_part('mailchimp-form'); ?>
-			</footer>
 
 		</article>
 
