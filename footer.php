@@ -10,6 +10,7 @@
     	</div>
     	<hr/>
     	<h4>© 2015 The Goods List—All Rights Reserved</h4>
+        <h4>By <a href="http://www.henrybayuzick.com/">Henry Bayuzick</a></h4>
     </footer>
 
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
